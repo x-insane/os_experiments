@@ -8,7 +8,7 @@
 #include <chrono>
 
 int main(int argc, const char **argv) {
-    auto start = std::chrono::high_resolution_clock::now();
+	auto start = std::chrono::high_resolution_clock::now();
 	if (argc > 1) {
 		// 执行单个命令
 		std::string command;
